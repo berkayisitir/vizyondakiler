@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+display: flex;
+height: 75px;
+}
+.navbar-list{
+    display: flex;
+    gap: 400px;
+    list-style: none;
+    margin:auto;
+}
+.navbar-list li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.icerik{
+    margin: auto;
+    height: 2500px;
+    width: 1250px;
+}
+.filmKutu{
+    width: 1250px;
+    height: 600px;
+}
+.ust{
+    width: 1250px;
+    height: 400px;
+    display: flex;
+}
+.afis{
+width: 625px;
+height: 400px;
+border-radius: 20px;
+overflow: hidden;
+}
+.afis img{
+    width: 100%;
+}
+.video{
+    width: 625px;
+    height: 400px;
+    margin-left: 10px;
+}
+.aciklama{
+    width: 1250px;
+    height:200px;
+    margin-top:0px;
+}
+p{
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer div .footer-list{
+    display: flex;
+    gap: 150px;
+}
+
+.footer div ul{
+    list-style: none;
+}
+.footer div ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.bilet{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+}
